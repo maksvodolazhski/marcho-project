@@ -1,0 +1,40 @@
+//Подключение шрифта Quicksand
+@font-face {
+  font-family: "Quicksand-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Quicksand-Regular"),
+    url("../fonts/Quicksand-Regular.woof2") format("woof2"),
+    url("../fonts/Quicksand-Regular.woof") format("woof");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Quicksand-Medium"),
+    url("../fonts/Quicksand-Medium.woof2") format("woof2"),
+    url("../fonts/Quicksand-Medium.woof") format("woof");
+  font-display: swap;
+}
+
+//Подключение шрифта Roboto
+@font-face {
+  font-family: "Roboto-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Roboto-Regular"),
+    url("../fonts/Roboto-Regular.woof2") format("woof2"),
+    url("../fonts/Roboto-Regular.woof") format("woof");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Roboto-Bold"), url("../fonts/Roboto-Bold.woof2") format("woof2"),
+    url("../fonts/Roboto-Bold.woof") format("woof");
+  font-display: swap;
+}
